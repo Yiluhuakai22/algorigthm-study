@@ -1,10 +1,13 @@
 CC = g++
 CFLAGS = -std=c++11 -Wall -g -fexec-charset=GBK -I ../Solution
 
-all: test1
+all: test
 
-test1: test_1_100.cpp profiler.o
-	$(CC) $(CFLAGS) test_1_100.cpp profiler.o -o test 
+test: test.cpp test_1_100.o profiler.o
+	$(CC) $(CFLAGS) test.cpp test_1_100.o profiler.o -o test
+
+test_1_100.o: test_1_100.cpp 
+	$(CC) $(CFLAGS) -c test_1_100.cpp 
 
 profiler.o: profiler.cpp 
 	$(CC) $(CFLAGS) -c profiler.cpp 
