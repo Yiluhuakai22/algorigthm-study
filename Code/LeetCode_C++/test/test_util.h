@@ -7,7 +7,6 @@
 #include <iostream>
 #include <random>
 #include <string>
-
 using std::cout;
 using std::endl;
 using std::ostream;
