@@ -9,12 +9,15 @@ void test_1() {
     int target = 9;
 
     LCSL::Solution_1 obj;
+
+    cout << "解法 1" << endl;
     Profiler::Start();
     auto ret = obj.twoSum_0(nums, target);
     Profiler::Finish();
     Profiler::dumpDuration();
     Print(ret);
 
+    cout << "解法 2" << endl;
     Profiler::Start();
     ret = obj.twoSum_1(nums, target);
     Profiler::Finish();
