@@ -1,4 +1,4 @@
-#include "test.h"
+#include "mytest.h"
 using std::cin;
 
 typedef void (*pFunc)();
@@ -6,6 +6,7 @@ std::map<std::string, pFunc> strFuncMap;
 
 void buildMap() {
     strFuncMap["test_1"] = &test_1;
+    strFuncMap["test_135"] = &test_135;
     strFuncMap["test_455"] = &test_455;
 }
 
@@ -24,6 +25,10 @@ int main() {
         cin >> input;
         if ((input.compare("q")) == 0) {
             break;
+        }
+        if(!is_digits(input)){
+            cout << "invalid input" << endl;
+            continue;
         }
 
         int i = std::stoi(input);

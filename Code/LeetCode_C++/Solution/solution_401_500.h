@@ -1,11 +1,6 @@
 #ifndef LCSL_SOLUTION_401_500_H_
 #define LCSL_SOLUTION_401_500_H_
-#include <algorithm>
-#include <map>
-#include <vector>
-using std::map;
-using std::size_t;
-using std::vector;
+#include "util.h"
 
 namespace LCSL {
 class Solution_455 {

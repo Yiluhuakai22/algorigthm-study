@@ -1,11 +1,6 @@
 #ifndef LCSL_SOLUTION_1_100_H_
 #define LCSL_SOLUTION_1_100_H_
-#include <map>
-#include <tr1/unordered_map>
-#include <vector>
-using std::map;
-using std::vector;
-using std::tr1::unordered_map;
+#include "util.h"
 
 namespace LCSL {
 class Solution_1 {

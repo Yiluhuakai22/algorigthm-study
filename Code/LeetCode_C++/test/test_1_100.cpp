@@ -1,4 +1,4 @@
-#include "test.h"
+#include "mytest.h"
 
 void test_1() {
     int a[4] = {2, 7, 11, 15};
@@ -13,12 +13,12 @@ void test_1() {
     auto ret = obj.twoSum_0(nums, target);
     Profiler::Finish();
     Profiler::dumpDuration();
-    Print(ret);
+    // Print(ret);
 
     cout << "解法 2" << endl;
     Profiler::Start();
     ret = obj.twoSum_1(nums, target);
     Profiler::Finish();
     Profiler::dumpDuration();
-    Print(ret);
+    // Print(ret);
 }

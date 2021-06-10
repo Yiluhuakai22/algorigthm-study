@@ -1,4 +1,4 @@
-#include "test.h"
+#include "mytest.h"
 
 void test_455() {
     int _g[3] = {1, 2, 3};
