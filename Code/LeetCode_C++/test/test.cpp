@@ -6,20 +6,21 @@ std::map<std::string, pFunc> strFuncMap;
 
 void buildMap() {
     strFuncMap["test_1"] = &test_1;
+    strFuncMap["test_455"] = &test_455;
 }
 
 void callFunc(const std::string& str) {
     if (strFuncMap.count(str))
         (*strFuncMap[str])();
     else
-        cout << "这题还没刷到呢" << endl;
+        cout << "I haven't solved this question yet" << endl;
 }
 
 int main() {
     buildMap();
     while (true) {
         string input;
-        cout << "请输入你要测试的题号 (范围1~1889，退出输入q): " << endl;
+        cout << "Please enter the question number you want to test (range 1~1889, exit and enter q): " << endl;
         cin >> input;
         if ((input.compare("q")) == 0) {
             break;
@@ -27,9 +28,9 @@ int main() {
 
         int i = std::stoi(input);
         if (i < 1 || i > 1889) {
-            cout << "正确范围1~1889，你的输入题号 " << input << " 不在范围内" << endl;
+            cout << "The correct range is 1~1889, your input question number " << input << " not in range" << endl;
         }
-        cout << "测试第" << i << "题" << endl;
+        cout << "test number " << i << endl;
 
         callFunc("test_" + input);
     }

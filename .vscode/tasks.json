@@ -1,0 +1,14 @@
+{
+    "tasks": [
+        {
+            "label": "make build active file",
+            "type": "shell",
+            "command":"cd ./Code/LeetCode_C++/test;make clean;make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },
+    ],
+    "version": "2.0.0"
+}

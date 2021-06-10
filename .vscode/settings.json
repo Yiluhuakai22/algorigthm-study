@@ -7,7 +7,8 @@
         "string": "cpp",
         "unordered_map": "cpp",
         "functional": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "ostream": "cpp"
     },
     "C_Cpp.clang_format_style": "{ BasedOnStyle: Chromium, IndentWidth: 4, ColumnLimit : 1000}",
     "editor.wordWrap": "on",
