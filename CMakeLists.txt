@@ -7,9 +7,9 @@ SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build/bin)
 
 # gtest库相关
 # 如果把gtest放到test目录下，则使用如下包含关系：
-add_subdirectory(./extra/googletest)  # 编译gtest
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/extra/googletest/googletest/include)  # 包含gtest等头文件
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/extra/googletest/googlemock/include)  # 包含gmock等头文件
+add_subdirectory(./ext/googletest)  # 编译gtest
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/ext/googletest/googletest/include)  # 包含gtest等头文件
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/ext/googletest/googlemock/include)  # 包含gmock等头文件
 
 # 头文件目录
 # include_directories("${CMAKE_CURRENT_SOURCE_DIR}/LeetCode_C++")
