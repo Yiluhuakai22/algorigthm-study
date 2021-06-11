@@ -1,5 +1,5 @@
 build/*
-LeetCode_C++/googletest/*
+extra/googletest/*
 # Prerequisites
 *.d
 

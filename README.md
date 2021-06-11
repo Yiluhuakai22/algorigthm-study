@@ -10,7 +10,7 @@
 > + google test 下载地址 https://github.com/google/googletest
 
 ## 部署
-> + 环境都搭建好之后，移动下载好的 googletest 到 LeetCode_C++ 
+> + 环境都搭建好之后，移动下载好的 googletest 到 extra 
 > + 进入 build 文件夹
 > + 执行 cmake -G "MinGW Makefiles" .. 
 > + 执行 make
