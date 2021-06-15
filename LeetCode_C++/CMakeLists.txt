@@ -4,6 +4,7 @@ project(TEST_SOLUTION)
 set(TEST_DIRS
 1_Two_Sum 
 135_Candy 
+435_Non_Overlapping_Intervals
 455_Find_Content_Children 
 )
 
