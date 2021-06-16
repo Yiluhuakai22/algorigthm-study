@@ -2,11 +2,12 @@ project(TEST_SOLUTION)
 
 # 测试代码目录
 set(TEST_DIRS
-1_Two_Sum 
-135_Candy 
-435_Non_Overlapping_Intervals
-455_Find_Content_Children 
-605_Can_Place_Flowers 
+1_twoSum 
+135_candy 
+435_eraseOverlapIntervals
+452_findMinArrowShots
+455_findContentChildren 
+605_canPlaceFlowers 
 )
 
 FOREACH(TEST_NAME ${TEST_DIRS})     
