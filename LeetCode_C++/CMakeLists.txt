@@ -6,6 +6,7 @@ set(TEST_DIRS
 135_Candy 
 435_Non_Overlapping_Intervals
 455_Find_Content_Children 
+605_Can_Place_Flowers 
 )
 
 FOREACH(TEST_NAME ${TEST_DIRS})     
