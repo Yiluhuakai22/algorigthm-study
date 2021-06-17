@@ -8,6 +8,7 @@ set(TEST_DIRS
 452_findMinArrowShots
 455_findContentChildren 
 605_canPlaceFlowers 
+763_partitionLabels  
 )
 
 FOREACH(TEST_NAME ${TEST_DIRS})     
