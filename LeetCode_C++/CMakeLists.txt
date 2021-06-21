@@ -3,6 +3,7 @@ project(TEST_SOLUTION)
 # 测试代码目录
 set(TEST_DIRS
 1_twoSum 
+69_mySqrt 
 76_minWindow 
 88_merge 
 122_maxProfit 
