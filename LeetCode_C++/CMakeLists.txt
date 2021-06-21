@@ -3,6 +3,7 @@ project(TEST_SOLUTION)
 # 测试代码目录
 set(TEST_DIRS
 1_twoSum 
+122_maxProfit 
 135_candy 
 435_eraseOverlapIntervals
 452_findMinArrowShots
