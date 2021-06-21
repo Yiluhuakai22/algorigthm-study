@@ -3,12 +3,17 @@ project(TEST_SOLUTION)
 # 测试代码目录
 set(TEST_DIRS
 1_twoSum 
+88_merge 
 122_maxProfit 
 135_candy 
+142_detectCycle 
+167_twoSum 
+406_reconstructQueue 
 435_eraseOverlapIntervals
 452_findMinArrowShots
 455_findContentChildren 
 605_canPlaceFlowers 
+665_checkPossibility 
 763_partitionLabels  
 )
 
