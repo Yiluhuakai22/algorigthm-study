@@ -3,12 +3,15 @@ project(TEST_SOLUTION)
 # 测试代码目录
 set(TEST_DIRS
 1_twoSum 
+34_searchRange 
 69_mySqrt 
 76_minWindow 
+81_search 
 88_merge 
 122_maxProfit 
 135_candy 
 142_detectCycle 
+154_findMin 
 167_twoSum 
 # 340
 406_reconstructQueue 
@@ -16,6 +19,7 @@ set(TEST_DIRS
 452_findMinArrowShots
 455_findContentChildren 
 524_findLongestWord 
+540_singleNonDuplicate
 605_canPlaceFlowers 
 633_judgeSquareSum 
 665_checkPossibility 
