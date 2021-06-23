@@ -21,3 +21,4 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/ext/googletest/googlemock/includ
 
 # 增加工程
 add_subdirectory(LeetCode_C++)
+add_subdirectory(DataStructure_C++)
