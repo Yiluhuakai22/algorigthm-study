@@ -3,6 +3,7 @@ project(TEST_SOLUTION)
 # 测试代码目录
 set(TEST_DIRS
 1_twoSum 
+4_findMedianSortedArrays 
 34_searchRange 
 69_mySqrt 
 76_minWindow 
@@ -19,7 +20,7 @@ set(TEST_DIRS
 452_findMinArrowShots
 455_findContentChildren 
 524_findLongestWord 
-540_singleNonDuplicate
+540_singleNonDuplicate 
 605_canPlaceFlowers 
 633_judgeSquareSum 
 665_checkPossibility 
