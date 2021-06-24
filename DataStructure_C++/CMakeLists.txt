@@ -1,8 +1,11 @@
 project(TEST_DataStructure)
 
 # 测试代码目录
-set(TEST_DIRS
+set(TEST_DIRS 
+bubble_sort 
+merge_sort 
 quick_sort 
+voidinsertion_sort 
 )
 
 FOREACH(TEST_NAME ${TEST_DIRS})     
