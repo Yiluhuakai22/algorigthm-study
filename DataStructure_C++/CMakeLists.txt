@@ -5,6 +5,7 @@ set(TEST_DIRS
 bubble_sort 
 merge_sort 
 quick_sort 
+selection_sort 
 voidinsertion_sort 
 )
 
