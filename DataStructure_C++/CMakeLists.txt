@@ -1,4 +1,4 @@
-project(TEST_DataStructure)
+project(TEST_DataStructure) # cmake -G "MinGW Makefiles" ..
 
 # 测试代码目录
 set(TEST_DIRS 

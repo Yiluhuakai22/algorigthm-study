@@ -1,4 +1,4 @@
-project(TEST_SOLUTION)
+project(TEST_SOLUTION) # cmake -G "MinGW Makefiles" ..
 
 # 测试代码目录
 set(TEST_DIRS
@@ -14,6 +14,7 @@ set(TEST_DIRS
 142_detectCycle 
 154_findMin 
 167_twoSum 
+215_findKthLargest 
 # 340
 406_reconstructQueue 
 435_eraseOverlapIntervals
