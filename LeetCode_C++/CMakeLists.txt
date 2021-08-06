@@ -16,6 +16,7 @@ set(TEST_DIRS
 167_twoSum 
 215_findKthLargest 
 # 340
+347_topKFrequent
 406_reconstructQueue 
 435_eraseOverlapIntervals
 452_findMinArrowShots

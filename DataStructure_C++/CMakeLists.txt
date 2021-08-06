@@ -3,6 +3,7 @@ project(TEST_DataStructure) # cmake -G "MinGW Makefiles" ..
 # 测试代码目录
 set(TEST_DIRS 
 bubble_sort 
+bucket_sort 
 merge_sort 
 quick_sort 
 selection_sort 
