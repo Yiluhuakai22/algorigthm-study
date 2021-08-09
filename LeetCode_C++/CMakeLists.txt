@@ -6,6 +6,7 @@ set(TEST_DIRS
 4_findMedianSortedArrays 
 34_searchRange 
 69_mySqrt 
+75_sortColors
 76_minWindow 
 81_search 
 88_merge 
@@ -19,6 +20,7 @@ set(TEST_DIRS
 347_topKFrequent
 406_reconstructQueue 
 435_eraseOverlapIntervals
+451_frequencySort
 452_findMinArrowShots
 455_findContentChildren 
 524_findLongestWord 
@@ -27,6 +29,7 @@ set(TEST_DIRS
 633_judgeSquareSum 
 665_checkPossibility 
 680_validPalindrome 
+695_maxAreaOfIsland 
 763_partitionLabels  
 )
 
